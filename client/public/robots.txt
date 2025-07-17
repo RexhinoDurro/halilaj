@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tolatiles.com/sitemap.xml
+
+# Disallow unnecessary pages from search engines
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.well-known/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all tile-related content
+Allow: /gallery/
+Allow: /services/
+Allow: /about/
+Allow: /contact/
+Allow: /faqs/
+
+# Allow Google Image Bot
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Block AI training crawlers (optional)
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+# Crawl delay (optional - helps prevent overwhelming the server)
+Crawl-delay: 1
+
+
