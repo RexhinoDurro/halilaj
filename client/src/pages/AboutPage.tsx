@@ -12,40 +12,39 @@ const AboutPage: React.FC = () => {
     "@type": "AboutPage",
     "mainEntity": {
       "@type": "LocalBusiness",
-      "name": "Tola Tiles",
-      "foundingDate": "2008",
+      "name": "Halilaj",
+      "foundingDate": "2003",
       "founder": {
         "@type": "Person",
-        "name": "Gazmend Tola"
+        "name": "Halilaj Family"
       },
-      "description": "Premium tile installation services for residential and commercial properties. Creating beautiful, lasting spaces since 2008.",
-      "numberOfEmployees": "15+",
-      "slogan": "Transforming spaces with exceptional craftsmanship",
+      "description": "Distributor i Autorizuar i SKF-së dhe Distributor Ekskuziv për PiBelt & PiChain nga Pizzirani. Lideri në tregun shqiptar që nga viti 2003.",
+      "numberOfEmployees": "25+",
+      "slogan": "Zgjidhje industriale me cilësi të garantuar",
       "knowsAbout": [
-        "Tile Installation",
-        "Kitchen Backsplashes",
-        "Bathroom Renovation",
-        "Floor Tiling",
-        "Patio Installation",
-        "Ceramic Tiles",
-        "Porcelain Tiles",
-        "Natural Stone"
+        "Kushineta",
+        "Permistopa", 
+        "Rripa Transmisioni",
+        "Gomina Alkoli",
+        "Makineri Industriale",
+        "Riparime Automjetesh",
+        "Sistem Frenash"
       ]
     }
   };
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://tolatiles.com" },
-    { name: "About", url: "https://tolatiles.com/about" }
+    { name: "Kryefaqja", url: "https://halilaj.com.al" },
+    { name: "Rreth Nesh", url: "https://halilaj.com.al/rreth-nesh" }
   ];
 
   return (
     <>
       <SEO 
-        title="About Tola Tiles - 15+ Years of Expert Tile Installation | Our Story & Team"
-        description="Learn about Tola Tiles - family-owned tile installation company since 2008. Meet our expert team, discover our values, and see why we're the premier choice for tile installation."
-        keywords="about tola tiles, tile installation company, tile contractor history, expert tile team, family owned business, tile installation experience"
-        url="https://tolatiles.com/about"
+        title="Rreth Halilaj - 20+ Vjet Lider në Tregun Shqiptar | Historia & Ekipi Ynë"
+        description="Zbuloni historinë e Halilaj - kompani familjare që nga 2003. Distributor i Autorizuar SKF dhe Ekskuziv Pizzirani. Takoni ekipin tonë ekspert dhe vlerat që na udhëheqin."
+        keywords="rreth halilaj, distributor skf, pizzirani shqiperi, kushineta permistopa, kompani familjare, eksperience industriale"
+        url="https://halilaj.com.al/rreth-nesh"
         schemaData={aboutSchema}
       />
       
@@ -56,31 +55,31 @@ const AboutPage: React.FC = () => {
         <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <header className="text-center mb-16">
-              <h1 className="text-6xl font-bold text-gray-900 mb-6 animate-fadeIn">About Tola Tiles</h1>
+              <h1 className="text-6xl font-bold text-gray-900 mb-6 animate-fadeIn">Rreth Nesh</h1>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed animate-slideInUp">
-                Transforming spaces with exceptional craftsmanship since 2008. 
-                We're not just tile installers—we're artisans who bring your vision to life with precision, 
-                passion, and an unwavering commitment to quality.
+                <strong>Lideri absolut në tregun shqiptar</strong> që nga viti 2003. 
+                Jemi më shumë se një distributor—jemi partneri juaj strategjik për zgjidhje industriale 
+                me cilësi të garantuar dhe besueshmëri të provuar në çdo sektor.
               </p>
             </header>
             
             {/* Key Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-slideInUp">
               <div className="text-center bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-4xl font-bold text-blue-600 mb-2" itemProp="numberOfEmployees">1,500+</div>
-                <div className="text-gray-600 font-medium">Projects Completed</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2" itemProp="numberOfEmployees">5,000+</div>
+                <div className="text-gray-600 font-medium">Klientë të Kënaqur</div>
               </div>
               <div className="text-center bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
-                <div className="text-gray-600 font-medium">Years of Excellence</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">20+</div>
+                <div className="text-gray-600 font-medium">Vjet Dominimi</div>
               </div>
               <div className="text-center bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-4xl font-bold text-blue-600 mb-2">98%</div>
-                <div className="text-gray-600 font-medium">Customer Satisfaction</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">99%</div>
+                <div className="text-gray-600 font-medium">Kënaqësi Klientësh</div>
               </div>
               <div className="text-center bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="text-4xl font-bold text-blue-600 mb-2">2-Year</div>
-                <div className="text-gray-600 font-medium">Quality Warranty</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">24/7</div>
+                <div className="text-gray-600 font-medium">Suport Teknik</div>
               </div>
             </div>
           </div>
@@ -91,30 +90,33 @@ const AboutPage: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="animate-slideInLeft">
-                <h2 id="story-heading" className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+                <h2 id="story-heading" className="text-4xl font-bold text-gray-900 mb-6">Historia Jonë e Suksesit</h2>
                 <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                   <p>
-                    What started as a small family business in 2008 has grown into the region's most trusted tile installation company. 
-                    Founded by <span itemProp="founder">Gazmend Tola</span> with just a vision for exceptional craftsmanship, we've built our reputation one perfectly placed tile at a time.
+                    Nga një dyqan modest në rrugën "Kavajes" në vitin 2003, <strong>Halilaj</strong> është transformuar në 
+                    <span className="font-bold text-blue-600"> liderin e pakontestueshëm</span> të tregjeve industriale në Shqipëri. 
+                    Ne nuk jemi thjesht një distributor—jemi <strong>arkitekti i zgjidheve industriale</strong> që kanë revolucionuar sektorë të tërë.
                   </p>
                   <p>
-                    We believe that your home or business deserves nothing less than perfection. Every project, whether it's a single bathroom renovation 
-                    or a large commercial installation, receives the same meticulous attention to detail and commitment to quality that has defined us for over a decade.
+                    Si <strong>Distributor i Autorizuar i SKF-së</strong> dhe <strong>Distributor Ekskuziv për PiBelt & PiChain nga Pizzirani</strong>, 
+                    ne kemi vendosur standardet e cilësisë që industria shqiptare ndjek. Çdo produkt që dalim në treg është 
+                    <span className="font-bold text-green-600">garanci për përformancë superiore</span>.
                   </p>
                   <p>
-                    Today, our team of certified craftsmen and design experts continues to push the boundaries of what's possible in tile installation, 
-                    combining traditional techniques with innovative approaches to create spaces that are both beautiful and built to last.
+                    Sot, me <strong>zyra në Tiranë dhe Durrës</strong>, ne shërbejmë gjithë spektrin industrial: 
+                    nga përpunimi i drurit dhe gurit, deri tek makineria bujqësore dhe ashensorët. 
+                    <span className="font-bold">Ne nuk thjesht shesim produkte—ne ndërtojmë partneritete të përhershme</span>.
                   </p>
                 </div>
                 
                 <div className="mt-8 flex items-center space-x-6">
                   <div className="flex items-center">
                     <Award className="h-6 w-6 text-blue-600 mr-2" aria-hidden="true" />
-                    <span className="text-gray-700 font-medium">Licensed & Insured</span>
+                    <span className="text-gray-700 font-bold">Distributor i Autorizuar SKF</span>
                   </div>
                   <div className="flex items-center">
                     <Shield className="h-6 w-6 text-blue-600 mr-2" aria-hidden="true" />
-                    <span className="text-gray-700 font-medium">Bonded & Certified</span>
+                    <span className="text-gray-700 font-bold">Ekskuziv Pizzirani</span>
                   </div>
                 </div>
               </div>
@@ -130,10 +132,10 @@ const AboutPage: React.FC = () => {
         <section className="py-20 bg-gray-50" aria-labelledby="values-heading">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <header className="text-center mb-16">
-              <h2 id="values-heading" className="text-4xl font-bold text-gray-900 mb-6">What Drives Us</h2>
+              <h2 id="values-heading" className="text-4xl font-bold text-gray-900 mb-6">Fuqia që na Drejton</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Our core values guide every decision we make and every tile we place. 
-                These principles have shaped our company culture and earned the trust of our clients.
+                <strong>Vlerat tona janë themeli i supremacisë</strong> që kemi arritur në treg. 
+                Këto principe kanë formuar kulturën tonë fituese dhe kanë fituar besimin e padiskutueshëm të klientëve.
               </p>
             </header>
             
@@ -141,23 +143,23 @@ const AboutPage: React.FC = () => {
               {[
                 {
                   icon: Target,
-                  title: "Precision First",
-                  description: "Every measurement, every cut, every placement is executed with meticulous precision. We believe that excellence lies in the details."
+                  title: "Precizion Absolut",
+                  description: "Çdo zgjidhje, çdo rekomandim, çdo shërbim dorëzohet me precizion matematikor. Mediokriteti nuk është opsion për ne."
                 },
                 {
                   icon: Heart,
-                  title: "Customer Devotion", 
-                  description: "Your satisfaction isn't just our goal—it's our passion. We listen, communicate, and go above and beyond to exceed your expectations."
+                  title: "Obsesion për Klientin", 
+                  description: "Kënaqësia juaj nuk është thjesht qëllimi ynë—është obsesioni ynë. Ne dëgjojmë, veprojmë dhe tejkalojmë çdo pritje."
                 },
                 {
                   icon: Shield,
-                  title: "Uncompromising Quality",
-                  description: "We use only premium materials and proven techniques. Quality isn't negotiable—it's the foundation of everything we do."
+                  title: "Cilësi e Paprekshme",
+                  description: "Përdorim vetëm materiale premium dhe teknika të provuara. Cilësia nuk është e negociueshme—është ADN-ja jonë."
                 },
                 {
                   icon: Lightbulb,
-                  title: "Innovative Solutions",
-                  description: "We stay ahead of industry trends and continuously innovate our techniques to provide cutting-edge solutions for every challenge."
+                  title: "Inovacion i Vazhdueshëm",
+                  description: "Ne jemi në krye të trendeve industriale dhe inovojmë vazhdimisht për të ofruar zgjidhje revolucionare për çdo sfidë."
                 }
               ].map((value, index) => {
                 const IconComponent = value.icon;
@@ -181,13 +183,14 @@ const AboutPage: React.FC = () => {
         {/* Mission Statement */}
         <section className="py-20" aria-labelledby="mission-heading">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 id="mission-heading" className="text-4xl font-bold text-gray-900 mb-8">Our Mission</h2>
+            <h2 id="mission-heading" className="text-4xl font-bold text-gray-900 mb-8">Misioni Ynë i Fuqishëm</h2>
             <blockquote className="text-2xl text-gray-700 leading-relaxed italic font-light" itemProp="slogan">
-              "To transform ordinary spaces into extraordinary experiences through masterful tile installation, 
-              innovative design, and unwavering commitment to craftsmanship. We believe that every room has the potential 
-              to become a work of art, and we're honored to be the artisans who bring that vision to life."
+              "Të <strong>revolucionojmë industrinë shqiptare</strong> përmes teknologjive më të avancuara, 
+              partneriteteve strategjike dhe një përkushtimi të palëkundur ndaj përsosmërisë. 
+              Ne besojmë se çdo industri ka potencialin të arrijë shkallë të reja të përsosësisë, 
+              dhe ne jemi <span className='font-bold text-blue-600'>pionierët që e bëjnë këtë realitet</span>."
             </blockquote>
-            <footer className="mt-8 text-gray-600 font-medium">- Gazmend Tola, Founder</footer>
+            <footer className="mt-8 text-gray-600 font-medium">- Familja Halilaj, Themeluesit</footer>
           </div>
         </section>
 
@@ -195,10 +198,10 @@ const AboutPage: React.FC = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700" aria-labelledby="why-choose-heading">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <header className="text-center mb-16">
-              <h2 id="why-choose-heading" className="text-4xl font-bold text-white mb-6">Why Tola Tiles?</h2>
+              <h2 id="why-choose-heading" className="text-4xl font-bold text-white mb-6">Pse Halilaj Dominon?</h2>
               <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-                When you choose us, you're not just hiring contractors—you're partnering with passionate craftsmen 
-                who care about your project as much as you do.
+                Kur zgjidhni ne, nuk po kontraktoni thjesht një furnitor—po partneridheni me 
+                <strong> maestrat e industrisë</strong> që e trajtojnë projektin tuaj si misionin e tyre personal.
               </p>
             </header>
             
@@ -206,18 +209,18 @@ const AboutPage: React.FC = () => {
               {[
                 {
                   icon: Users,
-                  title: "Expert Team",
-                  description: "Our certified professionals bring decades of combined experience and ongoing training to ensure the highest standards of installation."
+                  title: "Ekspertë të Pakrahasueshëm",
+                  description: "Ekipi ynë i certifikuar sjell dekada përvojë të kombinuar dhe trajnim të vazhdueshëm për të garantuar standardet më të larta të shërbimit."
                 },
                 {
                   icon: Clock,
-                  title: "Reliable Timeline",
-                  description: "We respect your time and schedule. Our detailed project planning ensures we complete your installation on time, every time."
+                  title: "Besueshmëri e Hekurt",
+                  description: "Ne respektojmë kohën dhe angazhimet tuaja. Planifikimi ynë i detajuar garanton përmbushjen e çdo afati, çdo herë."
                 },
                 {
                   icon: Star,
-                  title: "Lifetime Partnership",
-                  description: "Our relationship doesn't end when the project is complete. We provide ongoing support, maintenance advice, and are always here when you need us."
+                  title: "Partneritet për Jetë",
+                  description: "Marrëdhënia jonë nuk mbaron kur përfundon shitja. Ne ofrojmë mbështetje të vazhdueshme, këshilla mirëmbajtjeje dhe jemi gjithmonë këtu kur na nevojiteni."
                 }
               ].map((benefit, index) => {
                 const IconComponent = benefit.icon;
@@ -271,7 +274,7 @@ const TeamSlider: React.FC = () => {
           <div className="relative mx-auto mb-6">
             <img 
               src={currentMember.image} 
-              alt={`${currentMember.name} - ${currentMember.position} at Tola Tiles`}
+              alt={`${currentMember.name} - ${currentMember.position} në Halilaj`}
               className="w-32 h-32 rounded-full object-cover mx-auto border-4 border-blue-100"
               itemProp="image"
               width="128"
@@ -300,7 +303,7 @@ const TeamSlider: React.FC = () => {
           </p>
           
           <div>
-            <h4 className="font-semibold text-gray-900 mb-2 text-sm">Specialties:</h4>
+            <h4 className="font-semibold text-gray-900 mb-2 text-sm">Specialitetet:</h4>
             <div className="flex flex-wrap gap-2">
               {currentMember.specialties.map((specialty, index) => (
                 <span 
@@ -320,7 +323,7 @@ const TeamSlider: React.FC = () => {
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        aria-label="Previous team member"
+        aria-label="Anëtari i mëparshëm i ekipit"
       >
         <ChevronLeft className="h-5 w-5" />
       </button>
@@ -328,7 +331,7 @@ const TeamSlider: React.FC = () => {
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        aria-label="Next team member"
+        aria-label="Anëtari i radhës i ekipit"
       >
         <ChevronRight className="h-5 w-5" />
       </button>
@@ -342,7 +345,7 @@ const TeamSlider: React.FC = () => {
             className={`w-2 h-2 rounded-full transition-all duration-300 ${
               index === currentSlide ? 'bg-blue-600 scale-125' : 'bg-gray-300 hover:bg-gray-400'
             }`}
-            aria-label={`Go to team member ${index + 1}`}
+            aria-label={`Shko tek anëtari i ekipit ${index + 1}`}
           />
         ))}
       </div>

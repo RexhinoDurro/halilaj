@@ -14,32 +14,32 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">T</span>
+                <span className="text-white font-bold text-lg">H</span>
               </div>
-              <h2 className="text-2xl font-bold">Tola Tiles</h2>
+              <h2 className="text-2xl font-bold">Halilaj</h2>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Premium tile installation services for residential and commercial properties. 
-              Creating beautiful, lasting spaces since 2008.
+              Distributor i Autorizuar i SKF-së. Operojmë në treg që nga viti 2003, 
+              duke plotësuar kërkesat e konsumatorëve me cilësi dhe besueshmëri.
             </p>
             
             {/* Social Media */}
             <div className="flex space-x-4 mb-6">
               <a 
-                href={import.meta.env.VITE_FACEBOOK_URL || "https://www.facebook.com/TolaTiles"} 
+                href={import.meta.env.VITE_FACEBOOK_URL || "https://www.facebook.com/Halilaj"} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
-                aria-label="Visit our Facebook page"
+                aria-label="Vizitoni faqen tonë në Facebook"
               >
                 <span className="text-sm font-bold">f</span>
               </a>
               <a 
-                href={import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/tolatiles"} 
+                href={import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/halilaj"} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
-                aria-label="Visit our Instagram page"
+                aria-label="Vizitoni faqen tonë në Instagram"
               >
                 <span className="text-sm font-bold">ig</span>
               </a>
@@ -47,63 +47,63 @@ const Footer: React.FC = () => {
 
             {/* Business Certifications */}
             <div className="text-sm text-gray-400">
-              <p className="mb-1">Licensed & Insured</p>
-              <p className="mb-1">Bonded & Certified</p>
-              <p>BBB Accredited Business</p>
+              <p className="mb-1">Distributor i Autorizuar SKF</p>
+              <p className="mb-1">Më shumë se 20 vjet përvojë</p>
+              <p>Cilësi dhe Besueshmëri</p>
             </div>
           </div>
           
-          {/* Services */}
+          {/* Products/Categories */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Our Services</h3>
-            <nav aria-label="Services">
+            <h3 className="text-lg font-semibold mb-6">Kategoritë</h3>
+            <nav aria-label="Kategoritë e produkteve">
               <ul className="space-y-3 text-gray-300">
                 <li>
                   <Link 
-                    to="/services" 
+                    to="/kategori/kushineta" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Tile Installation
+                    Kushineta
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery/backsplashes" 
+                    to="/kategori/permistopa" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Kitchen Backsplashes
+                    Permistopa
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery/showers" 
+                    to="/kategori/rripa-transmisioni" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Bathroom Remodeling
+                    Rripa transmisioni
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery/flooring" 
+                    to="/kategori" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Floor Tiling
+                    Të gjitha kategoritë
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery/patios" 
+                    to="/produktet" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Outdoor Patios
+                    Produktet
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery/fireplaces" 
+                    to="/aplikime" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Fireplace Surrounds
+                    Aplikime
                   </Link>
                 </li>
               </ul>
@@ -112,39 +112,39 @@ const Footer: React.FC = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
-            <nav aria-label="Quick links">
+            <h3 className="text-lg font-semibold mb-6">Lidhjet e Shpejta</h3>
+            <nav aria-label="Lidhjet e shpejta">
               <ul className="space-y-3 text-gray-300">
                 <li>
                   <Link 
-                    to="/about" 
+                    to="/rreth-nesh" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    About Us
+                    Rreth nesh
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/gallery" 
+                    to="/produktet" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Project Gallery
+                    Produktet
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/faqs" 
+                    to="/aplikime" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Frequently Asked Questions
+                    Aplikime
                   </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/contact" 
+                    to="/kontakt" 
                     className="hover:text-white transition-colors hover:translate-x-1 transform duration-200 inline-block"
                   >
-                    Contact Us
+                    Kontakt
                   </Link>
                 </li>
                 <li>
@@ -164,18 +164,18 @@ const Footer: React.FC = () => {
           
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-6">Informacioni i Kontaktit</h3>
             <div className="space-y-4 text-gray-300" itemScope itemType="https://schema.org/LocalBusiness">
               <div className="flex items-start group">
                 <Phone className="h-4 w-4 mr-3 mt-1 text-blue-400 group-hover:text-blue-300 transition-colors flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <div className="text-sm text-gray-400 mb-1">Call us today</div>
+                  <div className="text-sm text-gray-400 mb-1">Na telefononi sot</div>
                   <a 
-                    href="tel:+1-904-210-3094"
+                    href="tel:+355042226308"
                     className="hover:text-white transition-colors font-medium"
                     itemProp="telephone"
                   >
-                    (904) 210-3094
+                    +355 04 222 63 08
                   </a>
                 </div>
               </div>
@@ -183,13 +183,13 @@ const Footer: React.FC = () => {
               <div className="flex items-start group">
                 <Mail className="h-4 w-4 mr-3 mt-1 text-blue-400 group-hover:text-blue-300 transition-colors flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <div className="text-sm text-gray-400 mb-1">Email us</div>
+                  <div className="text-sm text-gray-400 mb-1">Na shkruani</div>
                   <a 
-                    href="mailto:menitola@tolatiles.com"
+                    href="mailto:support@halilaj.com.al"
                     className="hover:text-white transition-colors"
                     itemProp="email"
                   >
-                    menitola@tolatiles.com
+                    support@halilaj.com.al
                   </a>
                 </div>
               </div>
@@ -197,10 +197,9 @@ const Footer: React.FC = () => {
               <div className="flex items-start group">
                 <MapPin className="h-4 w-4 mr-3 mt-1 text-blue-400 group-hover:text-blue-300 transition-colors flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <div className="text-sm text-gray-400 mb-1">Visit us</div>
+                  <div className="text-sm text-gray-400 mb-1">Na vizitoni</div>
                   <address className="not-italic" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                    <span itemProp="streetAddress">445 Hutchinson Ln</span><br />
-                    <span itemProp="addressLocality">Saint Augustine</span>, <span itemProp="addressRegion">FL</span> <span itemProp="postalCode">32084</span>
+                    <span itemProp="addressLocality">Tiranë</span>, <span itemProp="addressCountry">Shqipëri</span>
                   </address>
                 </div>
               </div>
@@ -208,20 +207,20 @@ const Footer: React.FC = () => {
               <div className="flex items-start group">
                 <Clock className="h-4 w-4 mr-3 mt-1 text-blue-400 group-hover:text-blue-300 transition-colors flex-shrink-0" aria-hidden="true" />
                 <div>
-                  <div className="text-sm text-gray-400 mb-1">Business Hours</div>
+                  <div className="text-sm text-gray-400 mb-1">Orari i Punës</div>
                   <div className="text-sm">
-                    <div>Mon-Fri: 8:00 AM - 6:00 PM</div>
-                    <div>Sat: 9:00 AM - 4:00 PM</div>
-                    <div>Sun: Closed</div>
+                    <div>Hën-Pre: 8:00 - 17:00</div>
+                    <div>Sht: 9:00 - 13:00</div>
+                    <div>Die: Mbyllur</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Emergency Service */}
-            <div className="mt-6 p-3 bg-red-900/30 rounded-lg border border-red-800">
-              <div className="text-sm font-semibold text-red-200 mb-1">Emergency Service</div>
-              <div className="text-xs text-red-300">24/7 emergency tile repair available</div>
+            {/* Service Highlight */}
+            <div className="mt-6 p-3 bg-blue-900/30 rounded-lg border border-blue-800">
+              <div className="text-sm font-semibold text-blue-200 mb-1">Distributor i Autorizuar</div>
+              <div className="text-xs text-blue-300">SKF produkte origjinale dhe të certifikuara</div>
             </div>
           </div>
         </div>
@@ -231,17 +230,17 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-300 text-sm text-center md:text-left">
               <p>
-                &copy; {currentYear} Tola Tiles. All rights reserved. | 
-                <Link to="/privacy-policy" className="hover:text-white ml-1">Privacy Policy</Link> | 
-                <Link to="/terms-of-service" className="hover:text-white ml-1">Terms of Service</Link>
+                Halilaj.com.al &copy; {currentYear} Të gjitha të drejtat e rezervuara. | 
+                <Link to="/politika-e-privatësisë" className="hover:text-white ml-1">Politika e Privatësisë</Link> | 
+                <Link to="/kushtet-e-shërbimit" className="hover:text-white ml-1">Kushtet e Shërbimit</Link>
               </p>
             </div>
             
             <div className="flex items-center gap-4 text-sm text-gray-400">
-              <span>Designed with excellence in mind</span>
+              <span>Që nga viti 2003</span>
               <div className="flex items-center gap-1">
                 <span>⭐</span>
-                <span>4.9/5 rating</span>
+                <span>Cilësi e garantuar</span>
               </div>
             </div>
           </div>
@@ -254,7 +253,7 @@ const Footer: React.FC = () => {
               "copyrightYear": currentYear,
               "copyrightHolder": {
                 "@type": "Organization",
-                "name": "Tola Tiles"
+                "name": "Halilaj"
               }
             })}
           </script>
